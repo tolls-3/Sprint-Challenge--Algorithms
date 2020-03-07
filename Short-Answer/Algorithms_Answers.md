@@ -39,6 +39,8 @@ Since eggs will only break from floor n and above, first select a mid point amon
 
 Essentially, we want to sort through the list of sorted floors in order to find the optimal floor. 
 
+best case: 0(1)
+worst case and average case: 0(log(n))
 ```
 
 
