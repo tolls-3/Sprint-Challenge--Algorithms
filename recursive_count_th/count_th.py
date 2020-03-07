@@ -7,14 +7,14 @@ def count_th(word):
     
     # TBC
     
-    counter = 0
+    count = 0
     if len(word) <= 1:
-        return counter
+        return count
     elif word[0] + word[1] == 'th':
-        counter = count_th(word[1:]) + 1
+        count = count_th(word[1:]) + 1
     else:
-        counter = count_th(word[1:])
-    print(counter)
-    return counter
+        count = count_th(word[1:])
+    print(count)
+    return count
 
 count_th('thooth')
